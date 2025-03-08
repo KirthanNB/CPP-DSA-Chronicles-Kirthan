@@ -15,8 +15,8 @@ Welcome to **DSA-Chronical**! This repository is my personal journey through **D
 
 ## 📂 Repository Structure
 ```
-DSA-Chronical/
-│── Notes/              # Contains detailed notes and explanations
+DSA-Chronicals-Kirthan/
+│── Main-Topic/         # Contains main topics of DSA
 │── Problems/           # C++ solutions to DSA problems
 │── README.md           # This README file
 └── Daily_Progress/     # Log of daily solved problems
