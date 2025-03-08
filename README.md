@@ -17,9 +17,8 @@ Welcome to **DSA-Chronical**! This repository is my personal journey through **D
 ```
 DSA-Chronicals-Kirthan/
 │── Main-Topic/         # Contains main topics of DSA
-│── Problems/           # C++ solutions to DSA problems
-│── README.md           # This README file
-└── Daily_Progress/     # Log of daily solved problems
+│── Difficulty-level    # Level of Difficulty{Easy, Medium, Hard} 
+└── Daily_Progress/     # Log of daily solved problems & C++ solutions to DSA problems
 ```
 
 ## 🔥 Goals & Motivation
