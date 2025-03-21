@@ -68,8 +68,31 @@ int main(){
 
     //Checking if the vector is empty or not
 
-    cout<<"Is the vector empty: "<<ve.empty()<<endl<<endl;
+    cout<<"Is the vector empty: "<<ve.empty()<<endl;
 
+    
+    //Iterators
+    //Initialisation of itarators
+    //Iterators acts as pointers
+    v.push_back(150);
+    v.push_back(350);
+    vector<int> :: iterator it;
+    
+    cout<<endl<<"Accessing elements using iterators in forward direction: "<<endl;
+    
+    for(it=v.begin(); it!=v.end(); it++){
+        cout<<"  "<<*(it);
+    }
+    
+    cout<<endl;
+    
+    cout<<endl<<"Accessing elements in the reverse direction: "<<endl;
+    
+    for(auto iter= v.rbegin(); iter!=v.rend(); iter++){
+        cout<<"  "<<*(iter);
+    }
+    
+    cout<<endl<<endl;
+    
     return 0;
-
 }
