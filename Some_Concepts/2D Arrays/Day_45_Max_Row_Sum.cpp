@@ -10,7 +10,6 @@ int solution(vector<vector<int>> matrix){
         for(int j=0; j<cols; j++){
             currsum += matrix[i][j];
         }
-        cout<<currsum<< "  ";
         if(currsum>maxsum){
             maxsum = currsum;
         } 
