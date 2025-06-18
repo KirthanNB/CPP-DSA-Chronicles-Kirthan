@@ -17,9 +17,12 @@ void printPascalsTriangle(int n) {
 }
 
 int main() {
-    int rows;
+    int rows, cols, sum;
     cout << "Enter number of rows: ";
     cin >> rows;
+    cout << "Enter number of cols: ";
+    cin >> cols;
+    cout << "Number of elements: " << rows*cols;
     printPascalsTriangle(rows);
     return 0;
 }
